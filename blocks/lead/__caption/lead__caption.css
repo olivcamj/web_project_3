@@ -1,6 +1,7 @@
-.Image__caption {
-  width: 636px;
-  height: 10px;
+.lead__caption {
+  width: 183px;
+  min-height: 14px;
+  margin-top: 8px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -8,4 +9,5 @@
   line-height: 12px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  color: #fff;
 }
