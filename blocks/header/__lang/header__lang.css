@@ -15,13 +15,3 @@
   color: #fff;
 }
 
-.header__lang:nth-child(1) {
-  text-decoration-line: underline;
-}
-
-@media screen and (max-width: 375px) {
-  .header__lang {
-    font-size: 18px;
-    line-height: 17px;
-  }
-}

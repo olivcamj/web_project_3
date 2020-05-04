@@ -1,0 +1,19 @@
+.header__lang-link {
+  max-width: 29px;
+  max-height: 28px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:nth-child(1) {
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+  .header__lang-link{
+    max-width: 22px;
+    max-height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

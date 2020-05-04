@@ -1,5 +1,5 @@
 .lead__container {
-  width: 928px;
+  max-width: 928px;
   min-height: 962px;
   display: flex;
   flex-direction: column;
@@ -11,28 +11,28 @@
 
 
 @media screen and (min-width: 1280px) {
-  .lead {
+  .lead__container {
     width: 984px;
     min-height: 1005px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .lead {
+@media screen and (min-width: 768px) {
+  .lead__container {
     width: 768px;
     min-height: 862px;
   }
 }
 
-@media screen and (max-width: 475) {
-  .lead {
-    min-width: 90%;
+@media screen and (min-width: 475) {
+  .lead__container {
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead {
-    width: 320px;
+  .lead__container {
+    max-width: 320px;
     min-height: 406px;
   }
 }
