@@ -1,0 +1,35 @@
+@import url(./__container/intro__container.css);
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__span-accent/intro__span-accent.css);
+
+.intro {
+  max-width: 690px;
+  min-height: 568px;
+  margin-left: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-left: 148px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    min-height: 542px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    min-height: 839px;
+    margin-top: 64px;
+    margin-left: 16px;
+  }
+}

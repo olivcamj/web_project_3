@@ -1,0 +1,6 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #fff;
+}
