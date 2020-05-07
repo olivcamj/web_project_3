@@ -1,7 +1,12 @@
 .page {
   margin: auto;
+  width: 100%;
+  min-width: 300px;
   max-width: 1440px;
+  height: auto;
   font-family: Inter,'Helvetica Neue', Arial, sans-serif;
   background: #2A2C2F;
+  color: white;
+  overflow: hidden;
 }
 
