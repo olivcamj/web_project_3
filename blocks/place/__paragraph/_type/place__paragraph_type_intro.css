@@ -1,5 +1,5 @@
 .place__paragraph_type_intro {
-  width: 456;
+  max-width: 456;
   margin-top: 0;
   margin-bottom: 24px;
 }
