@@ -1,0 +1,9 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./url-heading/place__url-heading.css);
+@import url(./__url-link/place__url-link.css);
+
+.place {
+  display: grid;
+  color: #fff;
+}
