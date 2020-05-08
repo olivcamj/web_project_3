@@ -1,0 +1,29 @@
+.place__url-link {
+  max-width: 456px;
+  min-height: 22px;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: underline;
+  opacity: 1;
+  transition: opacity 0.3s linear;
+}
+
+.place__url-link:hover {
+opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .place__url-link {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__url-link {
+    display: hidden;
+  }
+}

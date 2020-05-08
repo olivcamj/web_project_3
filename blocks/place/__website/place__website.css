@@ -1,0 +1,11 @@
+.place__website {
+  max-width: 456px;
+  min-height: 46px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
