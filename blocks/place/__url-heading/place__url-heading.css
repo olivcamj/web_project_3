@@ -1,19 +1,13 @@
-.place__url-link {
+.place__url-heading {
   max-width: 456px;
-  min-height: 22px;
-  margin-top: 12px;
+  min-height: 12px;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
-  text-decoration: underline;
-  opacity: 1;
-  transition: opacity 0.3s linear;
-}
-
-.place__url-link:hover {
-opacity: 0.5;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
