@@ -7,5 +7,17 @@
   line-height: 76px;
   text-align: center;
   color: #fffdfd;
+}
 
+
+@media screen and (max-height: 320px) {
+  .cover__title {
+    max-width: 288px;
+    min-height: 35px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    color: #fff;
+  }
 }
