@@ -9,6 +9,7 @@
   min-height: 640px;
   background: #2A2C2F;
   opacity: 1;
+  margin-top: 96px;
 }
 
 .cover:hover {
