@@ -1,7 +1,7 @@
-@import url(./__item/cover__item.css);
-@import url(./__link-container/cover__link-container.css);
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
+@import url('./__item/cover__item.css');
+@import url('./__link-container/cover__link-container.css');
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
 
 
 .cover {
