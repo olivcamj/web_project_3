@@ -12,14 +12,13 @@
   .photo-grid__container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 213px);
-    gap: 16px, 16px;
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
   }
 }
 

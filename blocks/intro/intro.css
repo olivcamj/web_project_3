@@ -1,9 +1,9 @@
-@import url(./__container/intro__container.css);
-@import url(./__title/intro__title.css);
-@import url(./__subtitle/intro__subtitle.css);
-@import url(./__text/intro__text.css);
-@import url(./__list/intro__list.css);
-@import url(./__span-accent/intro__span-accent.css);
+@import url('./__container/intro__container.css');
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__span-accent/intro__span-accent.css');
 
 .intro {
   max-width: 690px;

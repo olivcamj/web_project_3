@@ -4,6 +4,8 @@
 @import url('./__image-container/lead__image-container.css');;
 @import url('./__caption/lead__caption.css');
 
+
+@media screen and (max-width: 1024px) {
 .lead {
   max-width: 928px;
   min-height: 962px;
@@ -13,7 +15,7 @@
   align-items: center;
   justify-content: center;
 }
-
+}
 @media screen and (min-width: 1280px) {
   .lead {
     display: flex;

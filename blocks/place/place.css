@@ -22,6 +22,8 @@
 @media screen and (min-width: 1280px) {
   .place {
     column-gap: 40px;
+    max-width: 984px;
+    min-height: 584px;
     
   }
 }
