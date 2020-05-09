@@ -1,10 +1,9 @@
 .header__lang {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 18px;
-  align-content: flex-end;
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   font-family: Inter;
   font-style: normal;

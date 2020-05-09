@@ -5,10 +5,6 @@
   line-height: 28px;
 }
 
-.header__lang-link:nth-child(1) {
-  text-decoration-line: underline;
-}
-
 .header__lang-link:hover {
   cursor: pointer;
   transition: 0.5s;
