@@ -1,3 +1,37 @@
 @import url(./__item/cover__item.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  max-width: 1024px;
+  min-height: 640px;
+  background: #2A2C2F;
+  opacity: 1;
+}
+
+.cover:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+@media screen and (max-height: 1280px) {
+  .cover {
+    max-width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+
+  }
+}
