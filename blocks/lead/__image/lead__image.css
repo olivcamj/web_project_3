@@ -1,4 +1,9 @@
 .lead__image {
+ width: 100%;
+ min-height: 580;
+}
+ 
+ /*
   max-width: 928px;
   min-height: 580px;
 }
@@ -11,14 +16,14 @@
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__image {
     max-width: 768px;
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 375px) {
+@media screen and (max-width: 420px) and (min-width: 375px) {
   .lead__image {
     max-width: 375px;
     margin-top: 56px;
@@ -32,3 +37,4 @@
     margin-top: 40px
   }
 }
+*/

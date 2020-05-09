@@ -12,3 +12,8 @@
   line-height: 23px;
 }
 
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-top: 32px;
+  }
+}
