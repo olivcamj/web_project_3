@@ -13,20 +13,10 @@
   z-index: 2;
 }
 
-@media screen and (max-height: 320px) {
+@media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
     min-height: 35px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
-@media screen and (max-height: 320px) {
-  .cover__title {
-    max-width: 288px;
-    min-height: 35px;
-    font-style: normal;
     font-size: 32px;
     line-height: 35px;
     color: #fff;
