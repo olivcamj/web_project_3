@@ -1,0 +1,10 @@
+.cover__link-container {
+  width: 100vw;
+  max-width: 1184px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
