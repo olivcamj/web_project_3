@@ -12,20 +12,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
+    display: flex;
+    flex-direction: column;
     max-width: 984px;
-    min-height: 1005px;
+    margin: auto;
+    margin-bottom: 92px;
   }
 }
+/*
 
+@media screen and (max-width: 1024px) {
+}
+*/
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
     min-height: 862px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -33,5 +43,9 @@
   .lead {
     max-width: 320px;
     min-height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
