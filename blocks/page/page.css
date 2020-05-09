@@ -2,10 +2,10 @@
   margin: auto;
   width: 100%;
   min-width: 300px;
-  max-width: 1440px;
+  max-width: 1183px;
   height: auto;
-  font-family: Inter,'Helvetica Neue', Arial, sans-serif;
-  background: #2A2C2F;
+  font-family: 'Inter', Arial, sans-serif;
+  background: #2a2c2f;
   color: white;
   /*overflow: hidden; */
 }

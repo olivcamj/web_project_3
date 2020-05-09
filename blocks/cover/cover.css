@@ -17,21 +17,21 @@
   opacity: 0.3;
 }
 
-@media screen and (max-height: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover {
     max-width: 1184px;
     min-height: 740px;
   }
 }
 
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
     min-height: 480px;
   }
 }
 
-@media screen and (max-height: 320px) {
+@media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
     min-height: 200px;
