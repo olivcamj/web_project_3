@@ -6,25 +6,24 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
-  max-width: 928px;
-  min-height: 564px;
+  max-width: 984px;
+  min-height: 584px;
   margin-top: 92px; 
   display: grid;
-  color: #fff;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 48px;
-  column-gap: 32px;
+  column-gap: 40px;
   grid-template-areas: 
   "title website"
   "image paragraph";
+  color: #fff;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .place {
-    column-gap: 40px;
-    max-width: 984px;
-    min-height: 584px;
-    
+    max-width: 928px;
+    min-height: 564px;
+    column-gap: 32px;
   }
 }
 
