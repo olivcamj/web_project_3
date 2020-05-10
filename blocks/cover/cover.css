@@ -5,9 +5,6 @@
 
 
 .cover {
-  max-width: 1024px;
-  min-height: 640px;
-  background: #2A2C2F;
   opacity: 1;
   margin-top: 96px;
 }
@@ -17,23 +14,20 @@
   opacity: 0.3;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1184px;
-    min-height: 740px;
+    margin-top: 92px;;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
-    min-height: 480px;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 320px;
-    min-height: 200px;
+    margin-top: 64px;
   }
 }
