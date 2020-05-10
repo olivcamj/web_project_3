@@ -1,6 +1,7 @@
 .lead__subtitle {
   max-width: 620px;
-  min-height: 72px;
+  height: 92px;
+  margin: 0;
   color: #fff;
   font-family: Inter;
   font-style: normal;
@@ -11,10 +12,9 @@
   align-self: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .lead__subtitle {
-    max-width: 620px;
-    height: 92px;
+    min-height: 72px;
   }
 }
 

@@ -2,7 +2,7 @@
   max-width: 720px;
   min-height: 200px;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
   color: #fff;
   font-family: Inter;
   font-style: normal;
@@ -13,9 +13,9 @@
   align-self: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .lead__title {
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 }
 
