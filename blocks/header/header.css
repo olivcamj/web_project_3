@@ -10,6 +10,7 @@
   max-height: 44px;
   display: flex;
   justify-content: space-between;
+  margin: auto;
   margin-bottom: 58px;
 }
 
@@ -32,10 +33,4 @@
   }
 }
 
-@media screen and (max-width: 375px) and (min-width: 320px) {
-  .header{
-    max-width: 288px;
-    max-height: 36px;
-    margin-bottom: 50px;
-  }
-}
+

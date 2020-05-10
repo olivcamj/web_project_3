@@ -1,7 +1,7 @@
 .header__lang {
   margin: 0;
   padding: 0;
-  margin-top: 34px;
+  margin-top: 46px;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -14,3 +14,8 @@
   color: #fff;
 }
 
+@media screen and (max-width: 320px) {  
+  .header__lang {
+    margin-top: 30px; 
+ }
+}
