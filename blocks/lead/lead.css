@@ -1,36 +1,30 @@
 @import url('./__title/lead__title.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__image/lead__image.css');
-@import url('./__image-container/lead__image-container.css');;
+@import url('./__image-container/lead__image-container.css');
 @import url('./__caption/lead__caption.css');
 
-
-@media screen and (max-width: 1024px) {
 .lead {
-  max-width: 928px;
-  min-height: 962px;
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  max-width: 984px;
+  margin: auto;
+  margin-top: 58px;
+  margin-bottom: 92px;
 }
-}
-@media screen and (min-width: 1280px) {
-  .lead {
-    display: flex;
-    flex-direction: column;
-    max-width: 984px;
-    margin: auto;
-    margin-top: 58px;
-    margin-bottom: 92px;
-  }
-}
-/*
 
 @media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    min-height: 962px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
-*/
+
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
