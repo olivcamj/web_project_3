@@ -1,4 +1,5 @@
 .lead__image-container {
+  
   max-width: 984px;
   min-height: 615px;
   margin-top: 64px;
@@ -7,9 +8,9 @@
 
 @media screen and (max-width: 1024px) {
   .lead__image-container {
-    margin: 0;
     max-width: 928px;
     min-height: 580px;
+    margin-top: 64px;
   }
 }
 
@@ -17,6 +18,7 @@
   .lead__image-container {
     max-width: 100%;
     min-height: 480px;
+    margin: 0;
   }
 }
 
@@ -25,6 +27,7 @@
     width: 320px;
     min-height: 200px;
     margin-top: 40px;
+    margin-left: 0;
     margin-right: 0;
   }
 }
