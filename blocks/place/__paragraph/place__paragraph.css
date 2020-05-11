@@ -1,6 +1,6 @@
-@import url(./_type/place__paragraph_type_intro.css);
-@import url(./_type/place__paragraph_type_main.css);
-@import url(./_type/place__paragraph_type_cost.css);
+@import url('./_type/place__paragraph_type_intro.css');
+@import url('./_type/place__paragraph_type_main.css');
+@import url('./_type/place__paragraph_type_cost.css');
 
 .place__paragraph {
   max-width: 465px;
@@ -9,7 +9,16 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 @media screen and (max-width: 320px) {

@@ -2,12 +2,11 @@
   max-width: 69px;
   min-height: 18px;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   font-style: normal;
   font-weight: normal;
 }
-
 
 @media screen and (max-width: 320px) {
   .footer__list-item {
@@ -18,15 +17,4 @@
     line-height: 24px;
     padding-bottom: 32px;
   } 
-/*
-  .footer__list-item:nth-child(1) {
-    min-width: 63px;
-  }
-
-  .footer__list-item:nth-child(2) {
-    min-width: 96px;
-  }
-  .footer__list-item:nth-child(3) {
-    min-width: 103px;
-  }*/
 }
