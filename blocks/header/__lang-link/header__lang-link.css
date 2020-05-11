@@ -8,8 +8,8 @@
 
 .header__lang-link:hover {
   cursor: pointer;
-  transition: 0.5s;
-  opacity: 0.8;
+  transition: .5s;
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
