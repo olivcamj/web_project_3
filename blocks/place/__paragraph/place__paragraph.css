@@ -10,6 +10,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
+  margin: 0;
+  padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
