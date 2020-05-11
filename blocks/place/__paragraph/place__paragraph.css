@@ -1,6 +1,6 @@
-@import url(./_type/place__paragraph_type_intro.css);
-@import url(./_type/place__paragraph_type_main.css);
-@import url(./_type/place__paragraph_type_cost.css);
+@import url('./_type/place__paragraph_type_intro.css');
+@import url('./_type/place__paragraph_type_main.css');
+@import url('./_type/place__paragraph_type_cost.css');
 
 .place__paragraph {
   max-width: 465px;
