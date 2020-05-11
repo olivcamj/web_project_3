@@ -10,7 +10,7 @@
 @media only screen and (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
-    min-height: 255px;
+    min-height: 225px;
  }
 }
 
