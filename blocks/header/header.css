@@ -1,7 +1,7 @@
 @import url('./__logo/header__logo.css');
 @import url('./__lang/header__lang.css');
 @import url('./__lang-link/header__lang-link.css');
-@import url('./__underlined/header__underlined.css');
+@import url('./__lang-link/_active/header__lang-link_active.css');
 
 
 
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 425px) and (min-width: 375px) {
-  .header{
+  .header {
     min-width: 334px;
   }
 }

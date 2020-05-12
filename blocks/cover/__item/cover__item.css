@@ -15,7 +15,7 @@
   z-index: 0;
 }
 
-.cover__item:before {
+.cover__item::before {
   content: "";
   height: 100%;
   width: 100%;
@@ -28,7 +28,7 @@
   transition-duration: .5s;
 }
 
-.cover__item:hover:before {
+.cover__item:hover::before {
   opacity: .8;
 }
  
