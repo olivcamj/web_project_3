@@ -11,7 +11,7 @@
 
 .cover:hover {
   cursor: pointer;
-  opacity: 0.3;
+  opacity: .3;
 }
 
 @media screen and (max-width: 1024px) {
