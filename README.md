@@ -1,21 +1,16 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* GitPages
-
-**Intro**
-
 This is a project about traveling across the US.  
 
 
-**Figma**
+**Tools :wrench:**
 
-* [Link to the project spec sheet on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
+* Designs based on project spec sheet on Figma
+* HTML
+* CSS
+
+<hr>
 
 **Published Project**
 
-Link to [my project](https://olivcamj.github.io/web_project_3/) on GitHub Pages
-
-Check it out! :sparkles: I had so much fun creating this site!
+ [My project](https://olivcamj.github.io/web_project_3/) is published on GitHub Pages. Check it out! :sparkles: I had so much fun creating this site!
