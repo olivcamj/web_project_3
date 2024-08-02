@@ -1,0 +1,19 @@
+@import url('./__section/content__section.css');
+
+.content {
+  flex-shrink: 0;
+  display: grid;
+  gap: 92px;
+}
+
+@media screen and (max-width: 984px) {
+  .content{
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .content {
+    gap: 64px;
+  }
+}
