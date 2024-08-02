@@ -1,26 +1,21 @@
 .section_narrow {
-  margin-right: 100px;
-  margin-left: 100px;
-  
+  max-width: calc(100% - 200px);
 }
 
 @media screen and (max-width: 1024px) {
   .section_narrow {
-    margin-right: 48px;
-    margin-left: 48px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .section_narrow {
-    margin-right: 24px;
-    margin-left: 24px;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .section_narrow {
-    margin-right: 16px;
-    margin-left: 16px;
+    max-width: calc(100% - 32px);
   }
 }
